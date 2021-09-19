@@ -8,6 +8,12 @@ function App() {
     let crushName = React.createRef()
 
 
+    /**
+     * Don't need to change the api call. it's perfeactly works
+     * The issue is when in params sname set to name and fname set to
+     * crushName.
+     * @issue input issue need to be fixed
+     */
     function handleClick() {
         let options = {
             method: 'GET',
