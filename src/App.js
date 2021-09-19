@@ -4,8 +4,6 @@ const axios = require("axios").default;
 
 function App() {
     const [percentage, setPercentage] = useState('');
-    // let name = React.createRef()
-    // let crushName = React.createRef()
     const [yourName,setName] = useState('')
     const [crush,setCrush] = useState('')
 
